@@ -1,0 +1,13 @@
+/*+--------------------------------------------------------------------------------------+
+    +  Prog/prj:  texas_res.rc rBolos.exe.exe
+    +  Historiq:  25 aout 23:12
+    +
+    +  Fonction:  declaration ressources
+    +  Techniqu:
+    +  Auteur  : (c) ccgousset@gmail.com 2015 .Toute repro, utilisation, copie ou/et       +
+    +           publication du prog, source, obj ou dll est soumise a droit d auteur.      +
+        fichier vide part de gcc_cons_zrd.cbp template ide codeBlocks
+
+    +--------------------------------------------------------------------------------------+       */
+
+console ICON xcref.ico

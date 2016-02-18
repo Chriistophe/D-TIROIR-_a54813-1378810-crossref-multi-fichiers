@@ -1,0 +1,46 @@
+fp2 = fichier suivant;	
+	
+fp2 = fopen (titi[yy],"r") ---------------- !eof (fp)  
+
+SkipBlanks (fp2);
+	int isC(char CH)  test si caractere ecriture _variable
+	ParticularSkip(fp);  test car_spec, rem, tst_long
+			skiptochar
+			skipcomment
+--fin SkipBlanks (fp2)	
+RecordWord (fp2);
+	int CopyNextID (fp);fabidentifier (BUFFER[]) compte LINECOUNT++
+	int token() test strcmp(&(BUFFER[0]),WORDTABLE[i])
+	int RecordUserID (int fnflag)  et install (tree)
+	**int isfunction si function ()								
+		struct BinaryTree *install (struct BinaryTree *p)  install le record 
+			newtree()    return ((struct BinaryTree *) 
+			   ** ALLOCMEM(sizeof(struct BinaryTree)));
+			stringin(BUFFER);
+			pushonheap(p->line);
+					newheap(); 
+					  **return ((struct heap *)malloc (sizeof(struct heap)));
+			install(p->left);
+--fin RecordWord
+
+-----fp2 eof (fp) -----------------
+
+fp2 = fichier suivant ;			
+
+-------------- fin des fichiers du commonDialog 
+
+------------------------- traitement des infos ------------------------------		 
+listIDs (tree,fp3,"                     ");
+CloseDataStruct(tree);
+
+struct BinaryTree
+    char * name;						
+    struct heap *line;	------------------- extern struct heap			
+    struct BinaryTree *left;	            	short num;				
+    struct BinaryTree *right;	            	char spec;				
+*tree = NULL;					            	struct heap *next	t	
+								            	char * fileName;		
+								            	char toto[100];			
+								            *tref = NULL;				
+								
+
